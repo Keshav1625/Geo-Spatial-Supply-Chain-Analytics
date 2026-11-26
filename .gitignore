@@ -1,0 +1,28 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Jupyter temporary files
+*.ipynb_checkpoints/
+
+# Raw and intermediate datasets
+data/raw/
+data/cleaned/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.lock
+~$*
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Virtual environments
+venv/
+.env/

@@ -1,0 +1,53 @@
+﻿file,column,meaning
+olist_customers_dataset.csv,customer_id,Unique order-level customer record identifier.
+olist_customers_dataset.csv,customer_unique_id,Customer identifier intended to link repeat purchases by the same customer.
+olist_customers_dataset.csv,customer_zip_code_prefix,Customer ZIP-code prefix; not a full postal address.
+olist_customers_dataset.csv,customer_city,Customer city.
+olist_customers_dataset.csv,customer_state,Customer state.
+olist_geolocation_dataset.csv,geolocation_zip_code_prefix,ZIP-code prefix associated with the geographic record.
+olist_geolocation_dataset.csv,geolocation_lat,Latitude associated with the ZIP-code prefix.
+olist_geolocation_dataset.csv,geolocation_lng,Longitude associated with the ZIP-code prefix.
+olist_geolocation_dataset.csv,geolocation_city,City associated with the geographic record.
+olist_geolocation_dataset.csv,geolocation_state,State associated with the geographic record.
+olist_order_items_dataset.csv,order_id,Order identifier.
+olist_order_items_dataset.csv,order_item_id,Sequential item number within an order.
+olist_order_items_dataset.csv,product_id,Product identifier.
+olist_order_items_dataset.csv,seller_id,Seller identifier.
+olist_order_items_dataset.csv,shipping_limit_date,Seller shipping deadline recorded for the item.
+olist_order_items_dataset.csv,price,Item price.
+olist_order_items_dataset.csv,freight_value,Freight charge for the item.
+olist_order_payments_dataset.csv,order_id,Order identifier.
+olist_order_payments_dataset.csv,payment_sequential,Sequence number of payment within an order.
+olist_order_payments_dataset.csv,payment_type,Payment method.
+olist_order_payments_dataset.csv,payment_installments,Number of payment installments.
+olist_order_payments_dataset.csv,payment_value,Payment amount.
+olist_order_reviews_dataset.csv,review_id,Review identifier.
+olist_order_reviews_dataset.csv,order_id,Order identifier.
+olist_order_reviews_dataset.csv,review_score,Customer review score.
+olist_order_reviews_dataset.csv,review_comment_title,"Review title, where provided."
+olist_order_reviews_dataset.csv,review_comment_message,"Review text, where provided."
+olist_order_reviews_dataset.csv,review_creation_date,Review creation timestamp.
+olist_order_reviews_dataset.csv,review_answer_timestamp,Review response timestamp.
+olist_orders_dataset.csv,order_id,Unique order identifier.
+olist_orders_dataset.csv,customer_id,Customer record identifier.
+olist_orders_dataset.csv,order_status,Order status.
+olist_orders_dataset.csv,order_purchase_timestamp,Timestamp when the order was placed.
+olist_orders_dataset.csv,order_approved_at,Order approval timestamp.
+olist_orders_dataset.csv,order_delivered_carrier_date,Timestamp when the order was handed to the carrier.
+olist_orders_dataset.csv,order_delivered_customer_date,Timestamp when the order was delivered to the customer.
+olist_orders_dataset.csv,order_estimated_delivery_date,Estimated delivery timestamp.
+olist_products_dataset.csv,product_id,Product identifier.
+olist_products_dataset.csv,product_category_name,Product category in Portuguese.
+olist_products_dataset.csv,product_name_lenght,Length of product name field (source spelling retained).
+olist_products_dataset.csv,product_description_lenght,Length of product description field (source spelling retained).
+olist_products_dataset.csv,product_photos_qty,Number of product photos.
+olist_products_dataset.csv,product_weight_g,Product weight in grams.
+olist_products_dataset.csv,product_length_cm,Product length in centimetres.
+olist_products_dataset.csv,product_height_cm,Product height in centimetres.
+olist_products_dataset.csv,product_width_cm,Product width in centimetres.
+olist_sellers_dataset.csv,seller_id,Seller identifier.
+olist_sellers_dataset.csv,seller_zip_code_prefix,Seller ZIP-code prefix.
+olist_sellers_dataset.csv,seller_city,Seller city.
+olist_sellers_dataset.csv,seller_state,Seller state.
+product_category_name_translation.csv,product_category_name,Portuguese product category key.
+product_category_name_translation.csv,product_category_name_english,English translation of product category.
